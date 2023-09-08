@@ -1,4 +1,3 @@
-
 GET / HTTP/1.0
 GET / HTTP/1.1
 GET /+CSCOE+/logon.html HTTP/1.1
@@ -7,7 +6,7 @@ GET /.aws/credentials HTTP/1.1
 GET /.env HTTP/1.1
 GET /.git/config HTTP/1.1
 GET /.travis.yml HTTP/1.1
-GET /.well
+GET /.well-known/security.txt HTTP/1.1
 GET /1.php HTTP/1.1
 GET /1phpmyadmin/index.php?lang=en HTTP/1.1
 GET /2phpmyadmin/index.php?lang=en HTTP/1.1
@@ -19,7 +18,7 @@ GET /PMA/index.php?lang=en HTTP/1.1
 GET /Telerik.Web.UI.WebResource.axd?type=rau HTTP/1.1
 GET /Temporary_Listen_Addresses HTTP/1.1
 GET /__phpmyadmin/index.php?lang=en HTTP/1.1
-GET /_ignition/execute
+GET /_ignition/execute-solution HTTP/1.1
 GET /_phpMyAdmin/index.php?lang=en HTTP/1.1
 GET /_profiler/phpinfo HTTP/1.1
 GET /aaa9 HTTP/1.1
@@ -49,7 +48,7 @@ GET /aws/credentials HTTP/1.1
 GET /backend/.env HTTP/1.1
 GET /bundle.js HTTP/1.1
 GET /c/ HTTP/1.1
-GET /cgi
+GET /cgi-bin/authLogin.cgi HTTP/1.1
 GET /client/get_targets HTTP/1.1
 GET /config.json HTTP/1.1
 GET /config.py HTTP/1.1
@@ -62,7 +61,7 @@ GET /config/config.json HTTP/1.1
 GET /config/config.py HTTP/1.1
 GET /config/configs/application.ini HTTP/1.1
 GET /config/constants.js HTTP/1.1
-GET /config/docker
+GET /config/docker-compose.yml HTTP/1.1
 GET /config/getuser?index=0 HTTP/1.1
 GET /config/karma.conf.js HTTP/1.1
 GET /config/sendgrid.env HTTP/1.1
@@ -70,11 +69,13 @@ GET /configs/application.ini HTTP/1.1
 GET /console/ HTTP/1.1
 GET /constants.js HTTP/1.1
 GET /database/index.php?lang=en HTTP/1.1
-GET /db/db
+GET /db/db-admin/index.php?lang=en HTTP/1.1
 GET /db/dbweb/index.php?lang=en HTTP/1.1
 GET /db/index.php?lang=en HTTP/1.1
 GET /db/myadmin/index.php?lang=en HTTP/1.1
-GET /db/phpMyAdmin
+GET /db/phpMyAdmin-3/index.php?lang=en HTTP/1.1
+GET /db/phpMyAdmin-4/index.php?lang=en HTTP/1.1
+GET /db/phpMyAdmin-5/index.php?lang=en HTTP/1.1
 GET /db/phpMyAdmin/index.php?lang=en HTTP/1.1
 GET /db/phpMyAdmin3/index.php?lang=en HTTP/1.1
 GET /db/phpmyadmin/index.php?lang=en HTTP/1.1
@@ -83,10 +84,10 @@ GET /db/phpmyadmin5/index.php?lang=en HTTP/1.1
 GET /db/webadmin/index.php?lang=en HTTP/1.1
 GET /db/webdb/index.php?lang=en HTTP/1.1
 GET /dbadmin/index.php?lang=en HTTP/1.1
-GET /docker
+GET /docker-compose.yml HTTP/1.1
 GET /druid/index.html HTTP/1.1
 GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1
-GET /favicon
+GET /favicon-32x32.png HTTP/1.1
 GET /favicon.ico HTTP/1.1
 GET /files/ HTTP/1.1
 GET /geoip/ HTTP/1.1
@@ -100,7 +101,7 @@ GET /karma.conf.js HTTP/1.1
 GET /laravel/.env HTTP/1.1
 GET /manager/html HTTP/1.1
 GET /myadmin/index.php?lang=en HTTP/1.1
-GET /mysql
+GET /mysql-admin/index.php?lang=en HTTP/1.1
 GET /mysql/admin/index.php?lang=en HTTP/1.1
 GET /mysql/db/index.php?lang=en HTTP/1.1
 GET /mysql/dbadmin/index.php?lang=en HTTP/1.1
@@ -114,8 +115,20 @@ GET /mysqladmin/index.php?lang=en HTTP/1.1
 GET /mysqlmanager/index.php?lang=en HTTP/1.1
 GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0
 GET /password.php HTTP/1.1
-GET /php
-GET /phpMyAdmin
+GET /php-my-admin/index.php?lang=en HTTP/1.1
+GET /php-myadmin/index.php?lang=en HTTP/1.1
+GET /phpMyAdmin-3/index.php?lang=en HTTP/1.1
+GET /phpMyAdmin-4.9.10-all-languages/index.php?lang=en HTTP/1.1
+GET /phpMyAdmin-4/index.php?lang=en HTTP/1.1
+GET /phpMyAdmin-5.1.1/index.php?lang=en HTTP/1.1
+GET /phpMyAdmin-5.1.2/index.php?lang=en HTTP/1.1
+GET /phpMyAdmin-5.1.3/index.php?lang=en HTTP/1.1
+GET /phpMyAdmin-5.2.0-all-languages/index.php?lang=en HTTP/1.1
+GET /phpMyAdmin-5.2.0/index.php?lang=en HTTP/1.1
+GET /phpMyAdmin-5.3.0-all-languages/index.php?lang=en HTTP/1.1
+GET /phpMyAdmin-5/index.php?lang=en HTTP/1.1
+GET /phpMyAdmin-latest-all-languages/index.php?lang=en HTTP/1.1
+GET /phpMyAdmin-latest-english/index.php?lang=en HTTP/1.1
 GET /phpMyAdmin1/index.php?lang=en HTTP/1.1
 GET /phpMyAdmin2/index.php?lang=en HTTP/1.1
 GET /phpMyAdmin3/index.php?lang=en HTTP/1.1
@@ -157,11 +170,11 @@ GET /showLogin.cc HTTP/1.1
 GET /sitemap.xml HTTP/1.1
 GET /solr/ HTTP/1.1
 GET /sql/myadmin/index.php?lang=en HTTP/1.1
-GET /sql/php
+GET /sql/php-myadmin/index.php?lang=en HTTP/1.1
 GET /sql/phpMyAdmin/index.php?lang=en HTTP/1.1
 GET /sql/phpMyAdmin2/index.php?lang=en HTTP/1.1
 GET /sql/phpmanager/index.php?lang=en HTTP/1.1
-GET /sql/phpmy
+GET /sql/phpmy-admin/index.php?lang=en HTTP/1.1
 GET /sql/phpmyadmin3/index.php?lang=en HTTP/1.1
 GET /sql/phpmyadmin4/index.php?lang=en HTTP/1.1
 GET /sql/phpmyadmin5/index.php?lang=en HTTP/1.1
@@ -177,7 +190,8 @@ GET /systembc/password.php HTTP/1.1
 GET /test.php HTTP/1.1
 GET /upl.php HTTP/1.1
 GET /webfig/ HTTP/1.1
-GET /wp
+GET /wp-content/ HTTP/1.1
+GET /wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php?lang=en HTTP/1.1
 HEAD /.env HTTP/1.1
 OPTIONS / HTTP/1.0
 POST / HTTP/1.1
@@ -191,7 +205,7 @@ POST /app HTTP/1.1
 POST /aws/credentials HTTP/1.1
 POST /backend HTTP/1.1
 POST /boaform/admin/formLogin HTTP/1.1
-POST /cgi
+POST /cgi-bin/cstecgi.cgi HTTP/1.1
 POST /info.php HTTP/1.1
 POST /laravel HTTP/1.1
 POST /phpinfo HTTP/1.1
