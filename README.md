@@ -1,6 +1,9 @@
-Catched requests.
+Collected requests.
 
-[Full log](./full.log) example:
+\# [full log](./full.log) 
+
+> example:  
+`GET` request from `185.180.143.11` with URL path `/cgi-bin/authLogin.cgi`
 
 ```
 GET /cgi-bin/authLogin.cgi HTTP/1.1
@@ -12,8 +15,10 @@ Accept: */*
 Accept-Encoding: gzip
 ```
 
-[Request line](./request_line.log) example:
+\# [request line](./request_line.log)
 
+> example:  
+`GET` request with URL PATH `/cgi-bin/authLogin.cgi`
 ```
 GET /cgi-bin/authLogin.cgi HTTP/1.1
 ```
