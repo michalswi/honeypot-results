@@ -15,6 +15,8 @@ Accept: */*
 Accept-Encoding: gzip
 ```
 
+\# [full log - 599 lines](./full599.log)
+
 \# [request line](./request_line.log)
 
 > example:  
